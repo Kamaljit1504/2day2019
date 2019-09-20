@@ -12,12 +12,12 @@ public class CollegeExm {
         s.setStudentId(123);
         s.setFirstName("Kamal");
         s.setLastName("Soni");
-        s.setM1(70);
-        s.setM2(70);
-        s.setM3(70);
-        s.setM3(70);
-        s.setM4(70);
-        s.setM5(70);
+        s.setM1(80);
+        s.setM2(88);
+        s.setM3(90);
+        s.setM3(85);
+        s.setM4(98);
+        s.setM5(80);
 
         System.out.println(s.getStudentId());
         System.out.println((s.getFirstName()));
@@ -25,6 +25,7 @@ public class CollegeExm {
         s.calculateTotal();
         s.calculatePercentage();
         s.generateResult();
+        s.gradeSys();
 
 
 

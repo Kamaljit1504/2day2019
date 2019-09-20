@@ -142,4 +142,23 @@ public class StudentClass
         return  true;
     }
 
+
+    public void gradeSys()
+    {
+        if(percentage<49)
+            System.out.println("f");
+        else if(percentage<59)
+            System.out.println("E");
+        else if(percentage<69)
+            System.out.println("D");
+        else if(percentage<79)
+            System.out.println("C");
+        else if(percentage<89)
+            System.out.println("B");
+        else if(percentage<99)
+            System.out.println("A");
+
+
+    }
+
 }
